@@ -7,6 +7,7 @@ export default function App() {
 
   function goalInputHandler(enteredText) {
     setEnteredGoalText(enteredText);
+    console.log(enteredText);
   }
 
   function addGoalHandler() {
